@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>设置</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+<script type="text/javascript" src="../scripts/jquery.js"></script>
+<script type="text/javascript" src="../scripts/time.js"></script>
+<script type="text/javascript" src="../scripts/init.js"></script>
+<script src="../scripts/tuchuang.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-6">
+            <br/>
+            <div class="input-group width-limit">
+                <input type="text" id="input-access-key" placeholder="AccessKey" class="form-control ng-pristine ng-valid ng-valid-url"/>
+                <span class="input-group-btn"><button id="save-access-key" class="btn btn-default ng-binding ladda-button">保存<span class="ladda-spinner"></span></button></span>
+            </div><br/>
+            <div class="input-group width-limit">
+                <input type="text" id="input-secret-key" placeholder="SecretKey" class="form-control ng-pristine ng-valid ng-valid-url"/>
+                <span class="input-group-btn"><button id="save-secret-key" class="btn btn-default ng-binding ladda-button">保存<span class="ladda-spinner"></span></button></span>
+            </div><br/>
+            <div class="input-group width-limit">
+                <input type="text" id="input-scope" placeholder="上传空间名称" class="form-control ng-pristine ng-valid ng-valid-url"/>
+                <span class="input-group-btn"><button id="save-scope" class="btn btn-default ng-binding ladda-button">保存<span class="ladda-spinner"></span></button></span>
+            </div><br/>
+            <div class="input-group width-limit">
+                <input type="text" id="input-deadline" placeholder="UpToken有效小时" class="form-control ng-pristine ng-valid ng-valid-url"/>
+                <span class="input-group-btn"><button id="save-deadline" class="btn btn-default ng-binding ladda-button">保存<span class="ladda-spinner"></span></button></span>
+            </div><br/>
+            <div class="input-group width-limit">
+                <input type="text" id="input-url" placeholder="七牛文件链接前缀" class="form-control ng-pristine ng-valid ng-valid-url"/>
+                <span class="input-group-btn"><button id="save-url" class="btn btn-default ng-binding ladda-button">保存并返回上传页<span class="ladda-spinner"></span></button></span>
+            </div><br/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

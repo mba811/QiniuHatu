@@ -1,0 +1,20 @@
+{
+  "name": "七牛蛤图",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "七牛蛤图",
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "browser_action": {
+    "default_title": "七牛蛤图",
+    "default_icon": "images/icon38.png"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["scripts/jquery.js", "scripts/time.js", "scripts/init.js", "scripts/tuchuang.js"]
+  }],
+  "permissions": ["webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
+  "update_url": "http://blog.baolimoha.com/chromeextension/update.xml",
+  "homepage_url": "http://blog.baolimoha.com/"
+}
