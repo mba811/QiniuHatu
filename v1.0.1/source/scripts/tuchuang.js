@@ -61,6 +61,10 @@ $('#file').change(function () {
 };
 })
 
+$("#rs-text").click(function(){
+    this.select();
+});
+
 $("#rs-close").click(function(){
     $("#rs").hide();
 });
